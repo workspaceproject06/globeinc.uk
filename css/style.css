@@ -5,9 +5,7 @@ font: 400 15px Lato, sans-serif;
 line-height: 1.8;
 color: #818181;
 }
- #list{
- width:200px !important;
- } 
+
 /*PARALLAX SECTION*/
 .office{
 background:linear-gradient(rgba(47, 23, 15, 0.25), rgba(47, 23, 15, 0.25)),url('../img/company.jpg')no-repeat center;
@@ -192,3 +190,24 @@ margin-bottom: 30px;
   }
 }
   
+@media(min-width:992px){ 
+ /*MAP STYLING*/
+	.iframe-container{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* Ratio 16:9 ( 100%/16*9 = 56.25% ) */
+}
+.iframe-container > *{
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    height: 500px;
+    width: 100%;
+	border:3px solid red !important;
+}
+}
