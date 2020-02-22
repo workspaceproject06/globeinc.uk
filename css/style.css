@@ -188,10 +188,8 @@ margin-bottom: 30px;
       -webkit-transform: translateY(0%);
     }
   }
-}
-  
-@media(min-width:992px){ 
- /*MAP STYLING*/
+
+/*MAP STYLING*/
 	.iframe-container{
     position: relative;
     width: 100%;
