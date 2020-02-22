@@ -5,7 +5,9 @@ font: 400 15px Lato, sans-serif;
 line-height: 1.8;
 color: #818181;
 }
-  
+ #list{
+ width:200px !important;
+ } 
 /*PARALLAX SECTION*/
 .office{
 background:linear-gradient(rgba(47, 23, 15, 0.25), rgba(47, 23, 15, 0.25)),url('../img/company.jpg')no-repeat center;
