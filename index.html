@@ -299,20 +299,10 @@ GLOBEINC UK
 	</form>
 </div>
 
-<!--MAP SECTION-->
-<div id="list" class="container text-center"> 
-<br>
-<br>
-<br>
+<!--map section-->
+	
 
-<div class="col-md-12">
-<p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d150788.17236667755!2d-1.6758162059585893!3d53.80612364046695!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48793e4ada64bd99%3A0x51adbafd0213dca9!2sLeeds%2C%20UK!5e0!3m2!1sen!2sin!4v1582364595128!5m2!1sen!2sin" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe></p>
-<p style="text-align:center;"><b>Copyright © 2020 GlobeInc Leeds UK</b></p>
-
-</div>
-</div>
-
-
+<!--footer-->
 <footer class="container-fluid text-center">
   <a href="#myPage" title="To Top">
     <span class="glyphicon glyphicon-chevron-up"></span>
@@ -320,41 +310,8 @@ GLOBEINC UK
   <p> &reg;  2020 Globe Inc.com&nbsp; All rights reserved.</P>    
 </footer>      
 
-<script>
-$(document).ready(function(){
-  // Add smooth scrolling to all links in navbar + footer link
-  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
-    // Make sure this.hash has a value before overriding default behavior
-    if (this.hash !== "") {
-      // Prevent default anchor click behavior
-      event.preventDefault();
-
-      // Store hash
-      var hash = this.hash;
-
-      // Using jQuery's animate() method to add smooth page scroll
-      // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
-      $('html, body').animate({
-        scrollTop: $(hash).offset().top
-      }, 900, function(){
-   
-        // Add hash (#) to URL when done scrolling (default click behavior)
-        window.location.hash = hash;
-      });
-    } // End if
-  });
-  
-  $(window).scroll(function() {
-    $(".slideanim").each(function(){
-      var pos = $(this).offset().top;
-
-      var winTop = $(window).scrollTop();
-        if (pos < winTop + 600) {
-          $(this).addClass("slide");
-        }
-    });
-  });
-})
-</script>
+<!--script-->
+	
+	
 </body>
 </html>
